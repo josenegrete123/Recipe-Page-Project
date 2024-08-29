@@ -56,6 +56,7 @@ main {
     border-radius: 24px;
 }
 
+/* Card Image Area*/
 .card__image {
     background: url("./assets/images/image-omelette.jpeg");
     background-size: cover;
@@ -67,6 +68,7 @@ main {
     align-self: stretch;
 }
 
+/* Card Text Header Area*/
 .card__text {
     display: flex;
     flex-direction: column;
@@ -93,6 +95,7 @@ main {
     align-self: stretch;
 }
 
+/* Preparation Area */
 .card__text__preparation {
     display: flex;
     flex-direction: column;
@@ -100,7 +103,7 @@ main {
     padding: 24px;
     gap: 16px;
 
-    width: auto;
+    width: 656px;
     height: auto;
 
     border-radius: 12px;
@@ -115,8 +118,7 @@ main {
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    margin: 0px;
-    margin-left: 2em;
+    margin: 0px 0px 0px 2em;
 
     width: auto;
     height: auto;
@@ -127,12 +129,12 @@ main {
 .card__text__preparation__list__item {
     align-self: stretch;
     padding: 0px 0px 0px 8px;
-    gap: 16px;
 
     width: auto;
     height: auto;
 }
 
+/* Ingredients Area */
 .card__text__ingredients {
     display: flex;
     flex-direction: column;
@@ -140,14 +142,133 @@ main {
     gap: 24px;
     padding: 0px;
 
+    width: 656px;
+    height: auto;
+
+    align-self: stretch;
+}
+
+.card__text__ingredients__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    margin: 0px 0px 0px 2em;
+
     width: auto;
     height: auto;
 
     align-self: stretch;
 }
 
-.card__text__ingredients_list {
+.card__text__ingredients__list__item {
+    align-self: stretch;
+    padding: 0px 0px 0px 8px;
+
+    width: auto;
+    height: auto;
+}
+
+.card__text__line {
+    width: 656px;
+    height: 0px;
+
+    border: 1px solid var(--stone-150);
+}
+
+
+/* Instructions Area */
+.card__text__instructions {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 656px;
+    height: auto;
+
+    align-self: stretch;
+}
+
+.card__text__instructions__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    margin: 0px 0px 0px 2em;
+    
+    width: auto;
+    height: auto;
+
+    align-self: stretch;
+}
+
+.card__text__instructions__list__item {
+    align-self: stretch;
+    padding: 0px 0px 0px 8px;
+
+    width: auto;
+    height: auto;
+}
+
+/* Nutrition Area */
+.card__text__nutrition {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 656px;
+    height: auto;
+
+    align-self: stretch;
+}
+
+.card__text__nutrition__table__body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 656px;
+    height: auto;
+}
+
+
+.card__text__nutrition__table__body__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 32px;
+
+    width: 656px;
+    height: auto;
+
+    align-self: stretch;
+
+}
+
+.card__text__nutrition__table__body__row:nth-child(n+2) {
+    border-top: 1px solid var(--stone-150);
+}
+
+.card__text__nutrition__table__body__row__title {
+    width: 288px;
+    height: auto;
+
+    text-align: left;
+    margin-top: 10px;
+}
+
+.card__text__nutrition__table__body__row__detail {
+    width: 288px;
+    height: auto;
+
+    text-align: left;
 }
