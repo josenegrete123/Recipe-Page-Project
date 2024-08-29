@@ -202,7 +202,7 @@ main {
     color: var(--rose-800);
 }
 
-.first-word{
+.card__text__preparation .first-word {
     font-family: "Outfit";
     font-style: normal;
     font-weight: 700;
@@ -305,7 +305,7 @@ main {
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    margin: 0px 0px 0px 2em;
+    margin: 0px 0px 0px 1.5em;
     
     width: auto;
     height: auto;
@@ -315,12 +315,57 @@ main {
 
 .card__text__instructions__list__item {
     align-self: stretch;
-    padding: 0px 0px 0px 8px;
+    padding: 0px 0px 0px 16px;
 
     width: auto;
     height: auto;
 }
 
+.card__text__instructions h2 {
+    width: auto;
+    height: auto;
+
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+
+    color: var(--brown-800);
+}
+
+.card__text__instructions li {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    
+    
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--stone-600);
+}
+
+.card__text__instructions li::marker {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--brown-800);
+}
+
+.card__text__instructions .first-word {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
 /* Nutrition Area */
 .card__text__nutrition {
     display: flex;
