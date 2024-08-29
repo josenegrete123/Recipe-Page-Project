@@ -48,9 +48,8 @@ main {
     gap: 40px;
     padding: 40px;
 
-    width: 736px;
+    width: auto;
     height: auto;
-    
 
     background-color: var(--white);
     border-radius: 24px;
@@ -60,7 +59,7 @@ main {
 .card__image {
     background: url("./assets/images/image-omelette.jpeg");
     background-size: cover;
-    width: auto;
+    width: 656px;
     height: 300px;
 
     border-radius: 12px;
@@ -137,7 +136,7 @@ main {
     padding: 24px;
     gap: 16px;
 
-    width: 656px;
+    width: auto;
     height: auto;
 
     border-radius: 12px;
@@ -154,7 +153,7 @@ main {
     gap: 8px;
     margin: 0px 0px 0px 2em;
 
-    width: auto;
+    width: 608px;
     height: auto;
 
     align-self: stretch;
@@ -164,7 +163,7 @@ main {
     align-self: stretch;
     padding: 0px 0px 0px 8px;
 
-    width: auto;
+    width: 608px;
     height: auto;
 }
 
@@ -191,7 +190,7 @@ main {
 
     margin: 0px 0px 0px 2em;
 
-    width: auto;
+    width: 656px;
     height: auto;
 
     align-self: stretch;
@@ -201,8 +200,8 @@ main {
     align-self: stretch;
     padding: 0px 0px 0px 8px;
 
-    width: auto;
-    height: auto;
+    width: 656px;
+    height: 24px;
 }
 
 .card__text__line {
@@ -290,6 +289,7 @@ main {
 
 .card__text__nutrition__table__body__row:nth-child(n+2) {
     border-top: 1px solid var(--stone-150);
+    width: auto;
 }
 
 .card__text__nutrition__table__body__row__title {
