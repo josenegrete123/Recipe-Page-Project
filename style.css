@@ -17,6 +17,15 @@
     --white: hsl(0, 0%, 100%);
 }
 
+.attribution { font-size: 11px; 
+    text-align: center; 
+    margin-top: 1em;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
 main {
     display: flex;
     flex-direction: row;
@@ -30,4 +39,43 @@ main {
     gap: 8px;
 
     background: var(--stone-100);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+
+    width: 736px;
+    height: auto;
+    
+
+    background-color: var(--white);
+    border-radius: 24px;
+}
+
+.card__image {
+    background: url("./assets/images/image-omelette.jpeg");
+    background-size: cover;
+    width: auto;
+    height: 300px;
+
+    border-radius: 12px;
+
+    align-self: stretch;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: auto;
+    height: auto;
+
+    align-self: stretch;
 }
