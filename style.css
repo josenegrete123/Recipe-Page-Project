@@ -151,7 +151,7 @@ main {
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    margin: 0px 0px 0px 2em;
+    margin: 0px 0px 0px 1.5em;
 
     width: 608px;
     height: auto;
@@ -161,10 +161,53 @@ main {
 
 .card__text__preparation__list__item {
     align-self: stretch;
-    padding: 0px 0px 0px 8px;
+    padding: 0px 0px 0px 16px;
 
     width: 608px;
     height: auto;
+}
+
+.card__text__preparation h3 {
+    width: auto;
+    height: auto;
+    margin: 0px;
+
+    text-align: left;
+
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+
+    color: var(--rose-800);
+}
+
+.card__text__preparation li {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    
+    
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--stone-600);
+}
+
+.card__text__preparation li::marker {
+    color: var(--rose-800);
+}
+
+.first-word{
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 /* Ingredients Area */
