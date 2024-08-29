@@ -16,3 +16,18 @@
 
     --white: hsl(0, 0%, 100%);
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 1440px;
+    height: 1956px;
+
+    padding: 128px 48px;
+    gap: 8px;
+
+    background: var(--stone-100);
+}
