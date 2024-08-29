@@ -26,9 +26,9 @@
     color: hsl(228, 45%, 44%); 
 }
 
-main {
+body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -324,6 +324,7 @@ main {
 .card__text__instructions h2 {
     width: auto;
     height: auto;
+    margin: 0px;
 
     font-family: "Young Serif";
     font-style: normal;
@@ -423,4 +424,57 @@ main {
     height: auto;
 
     text-align: left;
+    margin-top: 10px;
+}
+
+.card__text__nutrition h2 {
+    width: auto;
+    height: auto;
+    margin: 0px;
+
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    text-align: left;
+
+    color: var(--brown-800);
+}
+
+.card__text__nutrition p {
+    width: auto;
+    height: auto;
+    margin: 0px;
+
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+
+    color: var(--stone-600);
+}
+
+.card__text__nutrition__table__body__row__title {
+    height: 24px;
+
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--stone-600);
+}
+
+.card__text__nutrition__table__body__row__detail {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--brown-800);
 }
