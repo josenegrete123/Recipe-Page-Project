@@ -254,6 +254,36 @@ main {
     border: 1px solid var(--stone-150);
 }
 
+.card__text__ingredients h2 {
+    width: auto;
+    height: auto;
+    margin: 0px;
+
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+
+    color: var(--brown-800);
+}
+
+.card__text__ingredients li {
+    width: auto;
+    height: auto;
+
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--stone-600);
+}
+
+.card__text__ingredients li::marker {
+    color: var(--brown-800);
+}
 
 /* Instructions Area */
 .card__text__instructions {
